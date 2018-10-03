@@ -17,13 +17,7 @@ public class Rectangle
 		double area = length * width;
 		double diagonal = Math.sqrt(length * length + width * width);
 		double perimeter = length + length + width + width;
-		System.out.printf("Area:%21.2f", area);
-		System.out.println();
-		System.out.printf("Perimeter:%16.2f", perimeter);
-		System.out.println();
-		System.out.printf("Diagonal Length:%10.2f", diagonal);
-		
-		
+		System.out.printf("Area:%21.2f\nPerimeter:%16.2f\nDiagonal Length:%10.2f", area, perimeter, diagonal);
 		
 	}
 
